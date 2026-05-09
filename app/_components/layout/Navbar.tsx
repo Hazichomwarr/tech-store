@@ -21,11 +21,11 @@ export default function Navbar() {
                 className="flex items-center gap-3 font-semibold text-neutral-900 cursor-pointer"
               >
                 <Image
-                  src="/images/hsa-logo.jpg"
+                  src="/images/logo.png"
                   alt="HSA Electronics logo"
-                  width={42}
-                  height={42}
-                  className="object-contain rounded-2xl h-auto"
+                  width={52}
+                  height={52}
+                  className="object-contain rounded-2xl w-auto h-auto"
                 />
 
                 <span className="block">HSA Electronics</span>

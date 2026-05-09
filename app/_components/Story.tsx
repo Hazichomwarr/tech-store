@@ -73,7 +73,7 @@ export default function Story() {
               alt="HSA Electronics"
               width={700}
               height={700}
-              className="w-full h-[500px] object-cover hover:scale-105 transition duration-700"
+              className="w-full h-125 object-cover hover:scale-105 transition duration-700"
             />
           </div>
         </div>

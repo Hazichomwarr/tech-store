@@ -3,7 +3,7 @@ import { BUSINESS_WHATSAPP } from "@/lib/businessInfo";
 
 export default function Deal() {
   return (
-    <section className="bg-gradient-to-br from-blue-600 to-blue-800 py-20 px-6 text-white">
+    <section className="bg-linear-to-br from-blue-600 to-blue-800 py-20 px-6 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           {/* LEFT - IMAGE */}
@@ -18,7 +18,7 @@ export default function Deal() {
                 alt="Bluetooth Speaker"
                 width={600}
                 height={500}
-                className="w-full h-[320px] object-cover rounded-2xl"
+                className="w-full h-80 object-cover rounded-2xl"
               />
             </div>
           </div>

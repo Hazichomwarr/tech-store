@@ -13,8 +13,9 @@ export default function Hero() {
         <Image
           src="/images/store.jpeg"
           alt="store"
-          className="object-cover opacity-65"
+          className="object-cover opacity-65 w-auto h-auto"
           fill
+          priority
         />
         <div className="absolute inset-0 bg-black/10" />
       </div>

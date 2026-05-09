@@ -79,6 +79,7 @@ export default function Service() {
                     width={600}
                     height={500}
                     className="h-65 w-full object-cover group-hover:scale-105 transition duration-500"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 ) : (
                   <div className="h-65 bg-gray-100 flex items-center justify-center text-gray-400">
