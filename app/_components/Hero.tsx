@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Button } from "./ui/Button";
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
         <Image
           src="/images/store.jpeg"
           alt="store"
-          className="object-cover opacity-40"
+          className="object-cover opacity-65"
           fill
         />
         <div className="absolute inset-0 bg-black/10" />
@@ -33,12 +34,12 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-4 justify-center">
-          <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl">
-            Shop Featured
-          </button>
-          <button className="border border-white px-6 py-3 rounded-xl">
-            Visit Store
-          </button>
+          <a href="#featured">
+            <Button>Shop Featured</Button>
+          </a>
+          <a>
+            <Button variant="outline">Visit Our Store</Button>
+          </a>
         </div>
       </motion.div>
     </section>

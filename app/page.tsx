@@ -4,10 +4,9 @@ import Categories from "./_components/Categories";
 import Deal from "./_components/Deal";
 import Featured from "./_components/Featured";
 import Hero from "./_components/Hero";
-import Services from "./_components/Services";
+import Footer from "./_components/layout/Footer";
+import Service from "./_components/Service";
 import Story from "./_components/Story";
-import Testimonials from "./_components/Testimonials";
-import Videos from "./_components/Videos";
 import Visit from "./_components/Visit";
 
 export default function Home() {
@@ -15,13 +14,12 @@ export default function Home() {
     <main>
       <Hero />
       <Featured />
-      {/* <Services /> */}
       <Categories />
-      <Videos />
-      {/* <Testimonials /> */}
+      <Service />
       <Story />
       <Deal />
       <Visit />
+      <Footer />
     </main>
   );
 }

@@ -1,3 +1,5 @@
+import { BUSINESS_LOCATION, BUSINESS_PHONE } from "@/lib/businessInfo";
+
 export default function Visit() {
   return (
     <section className="bg-neutral-50 py-16 px-6 text-center">
@@ -10,10 +12,16 @@ export default function Visit() {
 
         <div className="flex gap-4 justify-center">
           <button className="bg-blue-500 text-white px-10 py-3 cursor-pointer rounded-xl hover:bg-blue-600">
-            Call Now
+            <a href={BUSINESS_PHONE}>Call Now</a>
           </button>
           <button className="border border-blue-500 px-6 py-3 cursor-pointer rounded-xl hover:bg-neutral-200">
-            Get Directions
+            <a
+              href={BUSINESS_LOCATION}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Directions
+            </a>
           </button>
         </div>
       </div>
