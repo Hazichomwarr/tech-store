@@ -11,7 +11,7 @@ const services = [
   {
     id: 53,
     name: "Phone Screen Repair",
-    price: "$89",
+    price: "$69",
     desc: "Fast screen replacement service for cracked or damaged smartphone displays.",
     tag: "Most Requested",
     imagSrc: "/categories/repairs/screen-repair.png",
@@ -26,7 +26,7 @@ const services = [
   },
 
   {
-    id: 56,
+    id: 55,
     name: "Laptop Diagnostic Service",
     price: "$49",
     desc: "Professional troubleshooting service to identify hardware and software issues quickly.",
@@ -34,7 +34,7 @@ const services = [
     imagSrc: "/categories/repairs/laptop-diagnostic.png",
   },
   {
-    id: 55,
+    id: 56,
     name: "Charging Port Repair",
     price: "$79",
     desc: "Repair faulty charging ports to keep your device powered and connected.",

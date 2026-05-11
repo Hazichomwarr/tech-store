@@ -345,6 +345,25 @@ export const productCatalog: Product[] = [
     tag: "Budget",
     imagSrc: "/categories/car-audio/yr-audio.jpg",
   },
+  {
+    id: 57,
+    name: "PRV Audio",
+    price: "From $49",
+    category: "car-audio",
+    desc: "Powerful PRV speakers and tweeters designed for crisp highs and heavy bass performance.",
+    tag: "Best Seller",
+    imagSrc: "/categories/car-audio/prv.png",
+  },
+
+  {
+    id: 58,
+    name: "Power Amplifier",
+    price: "From $99",
+    category: "car-audio",
+    desc: "High-power amplifiers built to boost your car audio system with clean and powerful sound.",
+    tag: "Power Upgrade",
+    imagSrc: "/categories/car-audio/amplifier.jpg",
+  },
 
   // ======================
   // CAR ALARMS
