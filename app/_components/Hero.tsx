@@ -63,7 +63,7 @@ export default function Hero() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/55 to-black/50" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/55 to-black/80" />
 
         {/* Glow */}
         <div className="absolute inset-0 bg-blue-800/10 mix-blend-screen" />
