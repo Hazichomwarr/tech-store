@@ -117,7 +117,7 @@ export default function Hero() {
         </div>
 
         {/* Trust Row */}
-        <div className="mt-14 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-300">
+        <div className="mt-14 flex flex-col flex-wrap items-center justify-center gap-4 text-sm text-gray-300 md:flex-row">
           <div className="flex items-center gap-2">✅ Trusted Local Store</div>
 
           <div className="flex items-center gap-2">🔥 Affordable Pricing</div>
