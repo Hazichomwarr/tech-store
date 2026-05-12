@@ -88,6 +88,7 @@ export default function RootLayout({
         <a
           href={BUSINESS_WHATSAPP}
           className="fixed bottom-3 right-3 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg light"
+          target="_blank"
         >
           Chat on WhatsApp 💬
         </a>

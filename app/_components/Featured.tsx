@@ -29,7 +29,7 @@ export default function Featured() {
   const [selected, setSelected] = useState(products[0]);
 
   return (
-    <section className="bg-white text-black py-20 px-6">
+    <section id="featured" className="bg-white text-black py-20 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto">
